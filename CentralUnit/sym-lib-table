@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri ${KIPRJMOD}/ESP32-Footprints/ESP32-footprints-Shem-Lib.lib)(options "")(descr ""))
+  (lib (name 74hc595)(type Legacy)(uri ${KIPRJMOD}/lib/74hc595.lib)(options "")(descr ""))
+  (lib (name dk_Digital-Isolators)(type Legacy)(uri /home/kay/Documents/KiCAD/digikey-kicad-library/digikey-symbols/dk_Digital-Isolators.lib)(options "")(descr ""))
+  (lib (name dk_Logic-Shift-Registers)(type Legacy)(uri /home/kay/Documents/KiCAD/digikey-kicad-library/digikey-symbols/dk_Logic-Shift-Registers.lib)(options "")(descr ""))
+  (lib (name mp1584)(type Legacy)(uri ${KIPRJMOD}/lib/mp1584.lib)(options "")(descr ""))
+)

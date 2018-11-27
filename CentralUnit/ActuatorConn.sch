@@ -1,0 +1,155 @@
+EESchema Schematic File Version 4
+LIBS:FloorHeatingCentral-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5C013B88
+P 4900 4000
+AR Path="/5C013B88" Ref="Q?"  Part="1" 
+AR Path="/5C0130E7/5C013B88" Ref="Q1"  Part="1" 
+AR Path="/5C0162C8/5C013B88" Ref="Q2"  Part="1" 
+AR Path="/5C0163D9/5C013B88" Ref="Q3"  Part="1" 
+AR Path="/5C0163DC/5C013B88" Ref="Q4"  Part="1" 
+AR Path="/5C016537/5C013B88" Ref="Q5"  Part="1" 
+AR Path="/5C01653A/5C013B88" Ref="Q6"  Part="1" 
+AR Path="/5C01653D/5C013B88" Ref="Q7"  Part="1" 
+AR Path="/5C016540/5C013B88" Ref="Q8"  Part="1" 
+AR Path="/5C0169FB/5C013B88" Ref="Q9"  Part="1" 
+AR Path="/5C0169FE/5C013B88" Ref="Q10"  Part="1" 
+F 0 "Q10" H 4750 3950 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 4400 3850 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 5100 4100 50  0001 C CNN
+F 3 "~" H 4900 4000 50  0001 C CNN
+	1    4900 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C013B8E
+P 4800 3800
+AR Path="/5C013B8E" Ref="#PWR?"  Part="1" 
+AR Path="/5C0130E7/5C013B8E" Ref="#PWR0125"  Part="1" 
+AR Path="/5C0162C8/5C013B8E" Ref="#PWR0128"  Part="1" 
+AR Path="/5C0163D9/5C013B8E" Ref="#PWR0131"  Part="1" 
+AR Path="/5C0163DC/5C013B8E" Ref="#PWR0134"  Part="1" 
+AR Path="/5C016537/5C013B8E" Ref="#PWR0137"  Part="1" 
+AR Path="/5C01653A/5C013B8E" Ref="#PWR0140"  Part="1" 
+AR Path="/5C01653D/5C013B8E" Ref="#PWR0143"  Part="1" 
+AR Path="/5C016540/5C013B8E" Ref="#PWR0146"  Part="1" 
+AR Path="/5C0169FB/5C013B8E" Ref="#PWR0149"  Part="1" 
+AR Path="/5C0169FE/5C013B8E" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 4800 3550 50  0001 C CNN
+F 1 "GND" H 4700 3700 50  0000 C CNN
+F 2 "" H 4800 3800 50  0001 C CNN
+F 3 "" H 4800 3800 50  0001 C CNN
+	1    4800 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5C013C09
+P 4300 4200
+AR Path="/5C0130E7/5C013C09" Ref="J5"  Part="1" 
+AR Path="/5C0162C8/5C013C09" Ref="J6"  Part="1" 
+AR Path="/5C0163D9/5C013C09" Ref="J7"  Part="1" 
+AR Path="/5C0163DC/5C013C09" Ref="J8"  Part="1" 
+AR Path="/5C016537/5C013C09" Ref="J9"  Part="1" 
+AR Path="/5C01653A/5C013C09" Ref="J10"  Part="1" 
+AR Path="/5C01653D/5C013C09" Ref="J11"  Part="1" 
+AR Path="/5C016540/5C013C09" Ref="J12"  Part="1" 
+AR Path="/5C0169FB/5C013C09" Ref="J13"  Part="1" 
+AR Path="/5C0169FE/5C013C09" Ref="J14"  Part="1" 
+F 0 "J14" H 4300 4000 50  0000 C CNN
+F 1 "Conn_01x02" V 4400 4150 50  0000 C CNN
+F 2 "parts:ScrewTerminal_2x2.54" H 4300 4200 50  0001 C CNN
+F 3 "~" H 4300 4200 50  0001 C CNN
+	1    4300 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR0126
+U 1 1 5C0153FC
+P 4500 4100
+AR Path="/5C0130E7/5C0153FC" Ref="#PWR0126"  Part="1" 
+AR Path="/5C0162C8/5C0153FC" Ref="#PWR0129"  Part="1" 
+AR Path="/5C0163D9/5C0153FC" Ref="#PWR0132"  Part="1" 
+AR Path="/5C0163DC/5C0153FC" Ref="#PWR0135"  Part="1" 
+AR Path="/5C016537/5C0153FC" Ref="#PWR0138"  Part="1" 
+AR Path="/5C01653A/5C0153FC" Ref="#PWR0141"  Part="1" 
+AR Path="/5C01653D/5C0153FC" Ref="#PWR0144"  Part="1" 
+AR Path="/5C016540/5C0153FC" Ref="#PWR0147"  Part="1" 
+AR Path="/5C0169FB/5C0153FC" Ref="#PWR0150"  Part="1" 
+AR Path="/5C0169FE/5C0153FC" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 4500 3950 50  0001 C CNN
+F 1 "+24V" H 4515 4273 50  0000 C CNN
+F 2 "" H 4500 4100 50  0001 C CNN
+F 3 "" H 4500 4100 50  0001 C CNN
+	1    4500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4200 4500 4200
+Text HLabel 5150 4000 2    50   Input ~ 0
+GATE
+$Comp
+L Device:R R5
+U 1 1 5C033959
+P 5100 4200
+AR Path="/5C0130E7/5C033959" Ref="R5"  Part="1" 
+AR Path="/5C0162C8/5C033959" Ref="R6"  Part="1" 
+AR Path="/5C0163D9/5C033959" Ref="R7"  Part="1" 
+AR Path="/5C0163DC/5C033959" Ref="R8"  Part="1" 
+AR Path="/5C016537/5C033959" Ref="R9"  Part="1" 
+AR Path="/5C01653A/5C033959" Ref="R10"  Part="1" 
+AR Path="/5C01653D/5C033959" Ref="R11"  Part="1" 
+AR Path="/5C016540/5C033959" Ref="R12"  Part="1" 
+AR Path="/5C0169FB/5C033959" Ref="R13"  Part="1" 
+AR Path="/5C0169FE/5C033959" Ref="R14"  Part="1" 
+F 0 "R14" H 5170 4246 50  0000 L CNN
+F 1 "10K" V 5100 4150 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 5030 4200 50  0001 C CNN
+F 3 "~" H 5100 4200 50  0001 C CNN
+	1    5100 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4050 5100 4000
+Wire Wire Line
+	5100 4000 5150 4000
+Connection ~ 5100 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5C03463D
+P 5100 4350
+AR Path="/5C03463D" Ref="#PWR?"  Part="1" 
+AR Path="/5C0130E7/5C03463D" Ref="#PWR0127"  Part="1" 
+AR Path="/5C0162C8/5C03463D" Ref="#PWR0130"  Part="1" 
+AR Path="/5C0163D9/5C03463D" Ref="#PWR0133"  Part="1" 
+AR Path="/5C0163DC/5C03463D" Ref="#PWR0136"  Part="1" 
+AR Path="/5C016537/5C03463D" Ref="#PWR0139"  Part="1" 
+AR Path="/5C01653A/5C03463D" Ref="#PWR0142"  Part="1" 
+AR Path="/5C01653D/5C03463D" Ref="#PWR0145"  Part="1" 
+AR Path="/5C016540/5C03463D" Ref="#PWR0148"  Part="1" 
+AR Path="/5C0169FB/5C03463D" Ref="#PWR0151"  Part="1" 
+AR Path="/5C0169FE/5C03463D" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 5100 4100 50  0001 C CNN
+F 1 "GND" H 5000 4250 50  0000 C CNN
+F 2 "" H 5100 4350 50  0001 C CNN
+F 3 "" H 5100 4350 50  0001 C CNN
+	1    5100 4350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
