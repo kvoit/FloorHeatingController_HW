@@ -1240,4 +1240,37 @@ F 3 "" H 2750 4300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9350 5450 9350 5100
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5C0B012C
+P 1100 6350
+F 0 "H?" H 1200 6396 50  0000 L CNN
+F 1 "MountingHole" H 1200 6305 50  0000 L CNN
+F 2 "" H 1100 6350 50  0001 C CNN
+F 3 "~" H 1100 6350 50  0001 C CNN
+	1    1100 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5C0B0591
+P 1100 6150
+F 0 "H?" H 1200 6196 50  0000 L CNN
+F 1 "MountingHole" H 1200 6105 50  0000 L CNN
+F 2 "" H 1100 6150 50  0001 C CNN
+F 3 "~" H 1100 6150 50  0001 C CNN
+	1    1100 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5C0B07C9
+P 1100 6550
+F 0 "H?" H 1200 6596 50  0000 L CNN
+F 1 "MountingHole" H 1200 6505 50  0000 L CNN
+F 2 "" H 1100 6550 50  0001 C CNN
+F 3 "~" H 1100 6550 50  0001 C CNN
+	1    1100 6550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
