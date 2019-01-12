@@ -1,4 +1,4 @@
-740979255716336
+744440583499336
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -34850,8 +34850,8 @@ parts
 Through hole straight pin header, 1x19, 2.54mm pitch, single row
 Through hole pin header THT 1x19 2.54mm single row
 0
-19
-19
+20
+20
 parts
 Adafruit_KType_Amp
 
@@ -34909,6 +34909,13 @@ NRF24L01_SMD_CERAMIC
 8
 8
 parts
+OLED128x64
+
+
+0
+4
+4
+parts
 padsvg
 Imported from pads.svg
 svg2mod
@@ -34950,6 +34957,13 @@ ScrewTerminal_7.62mm
 0
 2
 2
+parts
+TAOGLAS_CGGP.35.2.A.08
+
+
+0
+3
+1
 parts
 TC4056A_Board
 
