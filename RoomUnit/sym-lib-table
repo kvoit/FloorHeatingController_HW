@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name OLED)(type Legacy)(uri ${KIPRJMOD}/lib/OLED.lib)(options "")(descr ""))
   (lib (name dk_Digital-Isolators)(type Legacy)(uri ${KIPRJMOD}/../../digikey-kicad-library/digikey-symbols/dk_Digital-Isolators.lib)(options "")(descr ""))
+  (lib (name RoomUnit-rescue)(type Legacy)(uri ${KIPRJMOD}/RoomUnit-rescue.lib)(options "")(descr ""))
 )
