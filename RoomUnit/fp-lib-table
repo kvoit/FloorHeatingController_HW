@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
+  (lib (name BME680Breakout)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty/BME680Breakout.pretty)(options "")(descr ""))
 )
