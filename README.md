@@ -9,7 +9,7 @@ Central controller for my floor heating based on the ESP32.
 ### Outputs
 
 - 10 low-side switched outputs that can be individually controlled and output the input voltage. (Speed limited by the shift registers. Hardware SPI theoretically possible but untested.) Used to power valves.
-- 10 5V/GND ports for powering thermostats.
+- 1 ~7.5V/5V/3.3V/GND ports for powering thermostats.
 
 ### Connectivity
 
