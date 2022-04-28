@@ -1,7 +1,6 @@
 (fp_lib_table
-  (lib (name "digikey-footprints")(type "KiCad")(uri "${KIPRJMOD}/../../digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
-  (lib (name "mp1584")(type "KiCad")(uri "${KIPRJMOD}/mp1584.pretty")(options "")(descr ""))
-  (lib (name "Espressif")(type "KiCad")(uri "/home/voit/git/espressif-kicad-libraries/footprints/Espressif.pretty")(options "")(descr ""))
-  (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/parts.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/../../espressif-kicad-libraries/footprints/Espressif.pretty")(options "")(descr ""))
+  (lib (name "mp1584")(type "KiCad")(uri "${KIPRJMOD}/pretty/mp1584.pretty")(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/pretty/PCB_DINrail_holder.pretty")(options "")(descr ""))
   (lib (name "RFM69HCW_ATSHA204A_Breakout")(type "KiCad")(uri "${KIPRJMOD}/pretty/RFM69HCW_ATSHA204A_Breakout.pretty")(options "")(descr ""))
 )

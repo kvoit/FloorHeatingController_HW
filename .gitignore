@@ -29,4 +29,4 @@ fp-info-cache
 
 *-backups
 *.bak
-
+\#auto_saved_files\#
