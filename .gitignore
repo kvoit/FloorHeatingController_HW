@@ -27,6 +27,6 @@ fp-info-cache
 *.xml
 *.csv
 
-#*-backups
-#*.bak
+*-backups
+*.bak
 
