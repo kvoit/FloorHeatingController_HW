@@ -14,6 +14,7 @@ Central controller for my floor heating based on the ESP32.
 - 10 low-side switched outputs that can be individually controlled and output the input voltage. (Speed limited by the shift registers. Hardware SPI theoretically possible but untested.) Used to power valves.
 - 4 Qwiic-compatible I2C ports
 - 1 ~7.5V/5V/3.3V/GND ports for powering thermostats.
+- JTAG header
 
 ### Case
 
