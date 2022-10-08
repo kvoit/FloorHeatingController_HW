@@ -8,7 +8,7 @@
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
-        "copper_text_upright": true,
+        "copper_text_upright": false,
         "courtyard_line_width": 0.049999999999999996,
         "dimension_precision": 4,
         "dimension_units": 3,
@@ -31,7 +31,7 @@
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
-        "other_text_upright": true,
+        "other_text_upright": false,
         "pads": {
           "drill": 0.762,
           "height": 1.524,
@@ -42,42 +42,14 @@
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.15,
-        "silk_text_upright": true,
+        "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 2.0
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        "clearance|100774000|117756000|86337d21-21ff-41d9-b410-84c294e6d4c7|be3c23a4-c711-4e7e-b832-1f8432ee1a89",
-        "clearance|100774000|120296000|f2be5d42-df5c-4a4a-8834-2bf8607644b3|90fa28c9-f9fd-49f1-8866-c2b4919ee438",
-        "clearance|100774000|122582000|54bb022c-4f06-483c-8e47-3bfbe88d31c6|342b238b-4bf8-4acb-8775-5aea0771c70f",
-        "clearance|100774000|125122000|08bad1ef-7879-432e-92ea-cae26bc2291c|925b0ad6-5413-4b16-a720-28e9e56ec287",
-        "courtyards_overlap|103394756|157675245|131f8ef3-4ce9-4a79-b966-2078febcf498|5eaefe45-4377-4f72-b5ff-c30dbfcff29f",
-        "courtyards_overlap|113554756|157675245|131f8ef3-4ce9-4a79-b966-2078febcf498|9e8cf55f-aa42-463b-a91a-de04527fe165",
-        "courtyards_overlap|123714756|157675245|9e8cf55f-aa42-463b-a91a-de04527fe165|f03478ba-f8e8-4ce7-a1fa-dca7b15de97a",
-        "courtyards_overlap|133874756|157675245|06246b13-4cc5-4813-9e84-3092eaa4c6ff|f03478ba-f8e8-4ce7-a1fa-dca7b15de97a",
-        "courtyards_overlap|144034756|157675245|06246b13-4cc5-4813-9e84-3092eaa4c6ff|5915437d-3d33-40dc-bddd-7a4b3a8695a3",
-        "courtyards_overlap|154194756|157675245|57893719-4e3e-402f-8b67-10cb9a3285f4|5915437d-3d33-40dc-bddd-7a4b3a8695a3",
-        "courtyards_overlap|164354756|157675245|57893719-4e3e-402f-8b67-10cb9a3285f4|fd4c7253-893d-46b0-ad35-78e7474dbe90",
-        "courtyards_overlap|174514756|157675245|9fa9f26f-181c-4272-9534-03061d2c9314|fd4c7253-893d-46b0-ad35-78e7474dbe90",
-        "courtyards_overlap|184674756|157675245|00cf5cd6-6352-4ecd-9e35-417d88e8c660|9fa9f26f-181c-4272-9534-03061d2c9314",
-        "courtyards_overlap|193914754|147099999|36b647b6-962d-4f42-b5da-084a10dc2051|896391fa-77aa-4617-be63-4c92c9128a73",
-        "silk_over_copper|103520000|76370000|8446dd72-3d3d-4e93-add2-1fa278f95796|9bdc1c4a-b5e8-4104-8343-beab0b766ae2",
-        "silk_over_copper|103520000|76370000|d92585aa-452e-4bb8-9772-e4eb958de396|9bdc1c4a-b5e8-4104-8343-beab0b766ae2",
-        "silk_over_copper|111135000|130726980|4b6b12d9-455f-48e6-a68d-b23c9408e091|82c71995-2f5f-4c50-9cf5-197a190346e8",
-        "silk_over_copper|130987800|60000000|ea97e68f-4bdd-42c7-ad65-4996d39393a0|76a39676-455f-4955-a088-1c75859bcc04",
-        "silk_over_copper|148971000|60000000|ea97e68f-4bdd-42c7-ad65-4996d39393a0|55f629e5-1c97-4453-a1ae-599ac25f2ed5",
-        "silk_over_copper|190150000|77730000|9bffcef8-be14-4a08-81e9-c0ac3133080e|a1434e3b-aba4-410a-858d-823582b176a7",
-        "silk_over_copper|190170000|142763959|b5bc7c7b-012d-43c7-823c-2542b95fcd23|2c7a209c-0737-4684-96db-c09c9b3ed448"
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -109,7 +81,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -129,7 +101,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.024999999999999998,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -141,17 +113,8 @@
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0,
-        1.0,
-        3.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -371,7 +334,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FloorHeatingCentral.kicad_pro",
+    "filename": "RoomUnit.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -392,36 +355,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.25,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "24V",
-        "nets": [
-          "+24V",
-          "/ActuatorConn/ValSW",
-          "/sheet5C0162C8/ValSW",
-          "/sheet5C0163D9/ValSW",
-          "/sheet5C0163DC/ValSW",
-          "/sheet5C016537/ValSW",
-          "/sheet5C01653A/ValSW",
-          "/sheet5C01653D/ValSW",
-          "/sheet5C016540/ValSW",
-          "/sheet5C0169FB/ValSW",
-          "/sheet5C0169FE/ValSW"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -433,7 +366,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "FloorHeatingCentral.net",
+      "netlist": "RoomUnit.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -480,48 +413,8 @@
   },
   "sheets": [
     [
-      "0e8f7fc0-2ef2-4b90-9c15-8a3a601ee459",
+      "0084f78d-8e4a-4e7f-ae60-68eeff25f1be",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-00005c0130e7",
-      "ActuatorConn"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c0162c8",
-      "sheet5C0162C8"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c0163d9",
-      "sheet5C0163D9"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c0163dc",
-      "sheet5C0163DC"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c016537",
-      "sheet5C016537"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c01653a",
-      "sheet5C01653A"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c01653d",
-      "sheet5C01653D"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c016540",
-      "sheet5C016540"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c0169fb",
-      "sheet5C0169FB"
-    ],
-    [
-      "00000000-0000-0000-0000-00005c0169fe",
-      "sheet5C0169FE"
     ]
   ],
   "text_variables": {}
